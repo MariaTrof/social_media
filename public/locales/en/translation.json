@@ -1,5 +1,10 @@
 {
   "Задача": "Task",
   "Перевод": "Translate",
-  "Язык": "English"
+  "Язык": "English",
+  "toggle": "toggle",
+  "Страница не найдена...": "Page not found...",
+  "Попробуйте перезапустить странницу": "Tru to reload this page",
+  "Что-то пошло не так": "Something gone wrong",
+  "Перезапустить": "Reload"
 }

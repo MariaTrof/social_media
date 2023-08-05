@@ -2,7 +2,8 @@ module.exports = {
 
     env: {
         browser: true,
-        es2021: true
+        es2021: true,
+        jest: true
     },
     extends: [
         'plugin:react/recommended',
@@ -42,7 +43,8 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'no-return-await': 'warn',
-        'i18next/no-literal-string': [ 'error', { markupOnly: true }]
+        'i18next/no-literal-string': [ 'error', { markupOnly: true }],
+        'max-len': ['error', {ignoreComments: true}]
     },
     ignorePatterns: [ '.eslintrc.js', 'node_modules' ],
     globals: {
