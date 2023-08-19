@@ -1,3 +1,4 @@
+// eslint-disable-next-line max-len
 import { type Configuration as DevServerConfigurations } from 'webpack-dev-server';
 import { type BuildOptions } from './types/config';
 

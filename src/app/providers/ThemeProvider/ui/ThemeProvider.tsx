@@ -1,11 +1,12 @@
-import React, { useMemo, useState, FC } from 'react';
+import React, { useMemo, useState } from 'react';
 import {
     LOCAL_STORAGE_THEME_KEY,
     Theme,
     ThemeContext,
 } from 'app/providers/ThemeProvider/lib/ThemeContext';
 
-const defaultTheme = (localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme) || Theme.light;
+export const defaultTheme = (
+    localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme) || Theme.light;
 interface Props {
   children?: React.ReactNode;
 }

@@ -1,7 +1,7 @@
 import { fireEvent, screen } from '@testing-library/react';
 import { Sidebar } from './Sidebar';
 // eslint-disable-next-line max-len
-import { RenderwithTranslation } from '../../../../shared/lib/test/RenderwithTranslation/REnderwithTranslation';
+import { RenderwithTranslation } from '../../../../shared/lib/test/RenderwithTranslation/RenderwithTranslation';
 
 describe('Sidebar', () => {
     test('with only first param', () => {

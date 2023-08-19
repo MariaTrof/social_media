@@ -1,13 +1,16 @@
 import {
-    type ButtonHTMLAttributes,
-    type FC,
-    type PropsWithChildren,
+    ButtonHTMLAttributes,
+    FC,
+    PropsWithChildren,
 } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './Button.module.scss';
 
 export enum ThemeButton {
+  // eslint-disable-next-line no-unused-vars
   CLEAR = 'clear',
+  // eslint-disable-next-line no-unused-vars
+  OUTLINE = 'outline',
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

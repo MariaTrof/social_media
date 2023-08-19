@@ -1,7 +1,7 @@
-@import "variables/global";
-@import "reset";
-@import "themes/light";
-@import "themes/dark";
+@import "./reset.scss";
+@import "./variables/global.scss";
+@import "./themes/light.scss";
+@import "./themes/dark.scss";
 
 .App {
     font: var(--font-m);

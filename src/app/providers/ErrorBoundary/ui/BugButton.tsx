@@ -2,7 +2,7 @@ import { Button } from 'shared/ui/Button/Button';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-//компонент для тестирования ошибки ErrorBoundary
+// компонент для тестирования ошибки ErrorBoundary
 
 export function BugButton() {
     const [error, setError] = useState(false);

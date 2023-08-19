@@ -13,7 +13,7 @@ export function Navbar({ className }: NavbarProps) {
             <div className={cls.links}>
                 <AppLink
                     theme={AppLinkTheme.SECONDARY}
-                    to="/"
+                    to="/about"
                     className={cls.mainLink}
                 >
                     MAIN

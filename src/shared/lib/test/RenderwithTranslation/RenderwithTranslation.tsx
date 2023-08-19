@@ -5,8 +5,8 @@ import i18nFortest from '../../../config/i18n/i18nFortest';
 
 export function RenderwithTranslation(component: ReactNode) {
     return render(
-      <I18nextProvider i18n={i18nFortest}>
-        {component}
-      </I18nextProvider>
+        <I18nextProvider i18n={i18nFortest}>
+            {component}
+        </I18nextProvider>,
     );
 }

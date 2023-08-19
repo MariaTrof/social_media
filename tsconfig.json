@@ -1,4 +1,5 @@
-{
+ {
+  "declare module": "cross-spawn",
   "compilerOptions": {
     "outDir": "./dist/",
     "noImplicitAny": true,
@@ -19,7 +20,5 @@
       "module": "CommonJS"
     }
   },
-  "include": [
-    "./config/jest/JestSetUp.ts"
-  ],
+  "include": ["./config/jest/JestSetUp.ts", "./src/**/*.ts", "./src/**/*.tsx"]
 }
